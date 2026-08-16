@@ -1,15 +1,23 @@
-* {
-    font-family:'Courier New';
-}
-h1{
-    color:blue;
-}
-#searchbtn{
-    background-color:black;
-    color:white;
+#outer {
+    height: 200px;
+    width: 70;
+    border: 2px solid red;
 }
 
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
 
-#login, #register{
-    background-color:aqua;
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
 }
